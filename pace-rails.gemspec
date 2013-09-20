@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dan@yovu.co"]
   spec.description   = %q{Pace automatic web page progress bar}
   spec.summary       = %q{Pace automatic web page progress bar, integrated in Rails assets pipeline.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/drkyro/pace-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
