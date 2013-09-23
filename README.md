@@ -2,19 +2,15 @@
 
 TODO: Write a gem description
 
-## Installation
+## Rails 4+
 
-Add this line to your application's Gemfile:
+Include pace-rails in Gemfile:
 
     gem 'pace-rails'
 
-And then execute:
+or you can install from latest build:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install pace-rails
+    gem 'pace-rails', git: 'git@github.com:drkyro/pace-rails.git'
 
 ## Usage
 
