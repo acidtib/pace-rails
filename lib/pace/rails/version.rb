@@ -1,5 +1,5 @@
 module Pace
   module Rails
-    VERSION = "0.4.4"
+    VERSION = "0.0.2"
   end
 end
