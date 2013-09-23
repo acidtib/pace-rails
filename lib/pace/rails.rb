@@ -1,7 +1,9 @@
 require "pace/rails/version"
 
 module Pace
-  module Rails
-    # Your code goes here...
-  end
+  	module Rails
+   		class Engine < ::Rails::Engine
+
+   		end
+  	end
 end
