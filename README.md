@@ -18,7 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+app/assets/javascripts/application.js
+
+	//= require pace/pace
+
+Pace supports a few themes.
+
+app/assets/stylesheets/application.css
+
+	*= require pace/
+	// or
+
+You may need to restart your rails server.
 
 ## Contributing
 
