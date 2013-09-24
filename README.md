@@ -1,4 +1,4 @@
-# Pace-Rails
+# Pace-Rails [![Gem Version](https://badge.fury.io/rb/pace-rails.png)](http://badge.fury.io/rb/pace-rails)
 
 Automatic web page progress bar.
 
