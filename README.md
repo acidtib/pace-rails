@@ -25,8 +25,23 @@ Pace supports a few themes.
 
 app/assets/stylesheets/application.css
 
-	*= require pace/
-	// or
+	*= require pace/minimal
+	
+	*= require pace/flash
+
+	*= require pace/barber-shop
+
+	*= require pace/mac-osx
+
+	*= require pace/fill-left
+
+	*= require pace/flat-top
+
+	*= require pace/big-bounce
+
+	*= require pace/corner-indicator
+
+	*= require pace/bounce
 
 You may need to restart your rails server.
 
