@@ -1,6 +1,9 @@
-# Pace::Rails
+# Pace-Rails
 
-TODO: Write a gem description
+Automatic web page progress bar.
+
+-	[Demo](http://github.hubspot.com/pace/docs/welcome/)
+-	[Documentation](http://github.hubspot.com/pace/)
 
 ## Rails 4+
 
