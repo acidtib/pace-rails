@@ -1,3 +1,4 @@
+/* This is a compiled file, you should be editing the file in the templates directory */
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -17,6 +18,11 @@
   top: 0;
   left: 0;
   height: 2px;
+
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
 }
 
 .pace .pace-progress-inner {

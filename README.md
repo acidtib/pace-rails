@@ -21,27 +21,27 @@ app/assets/javascripts/application.js
 
 	//= require pace/pace
 
-Pace supports a few themes.
+Pace supports a few themes, selec one of the following and have fun and create your own.
 
 app/assets/stylesheets/application.css
 
-	*= require pace/minimal
+	*= require pace/pace-theme-minimal
 	
-	*= require pace/flash
+	*= require pace/pace-theme-flash
 
-	*= require pace/barber-shop
+	*= require pace/pace-theme-barber-shop
 
-	*= require pace/mac-osx
+	*= require pace/pace-theme-mac-osx
 
-	*= require pace/fill-left
+	*= require pace/pace-theme-fill-left
 
-	*= require pace/flat-top
+	*= require pace/pace-theme-flat-top
 
-	*= require pace/big-bounce
+	*= require pace/pace-theme-big-counter
 
-	*= require pace/corner-indicator
+	*= require pace/pace-theme-corner-indicator
 
-	*= require pace/bounce
+	*= require pace/pace-theme-bounce
 
 You may need to restart your rails server.
 

@@ -1,3 +1,4 @@
+/* This is a compiled file, you should be editing the file in the templates directory */
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -14,10 +15,15 @@
   left: 0;
   height: 12px;
   background: #29d;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
+
+  -webkit-transition: -webkit-transform .3s, width 1s;
+  -moz-transition: width 1s;
+  -o-transform: width 1s;
+  transition: transform .3s, width 1s;
+
   -webkit-transform: translateY(-50px);
   transform: translateY(-50px);
+
   pointer-events: none;
 }
 
