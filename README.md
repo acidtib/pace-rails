@@ -5,7 +5,7 @@ Automatic web page progress bar.
 -	[Demo](http://github.hubspot.com/pace/docs/welcome/)
 -	[Documentation](http://github.hubspot.com/pace/)
 
-## Rails 4+
+## Rails 3+ | 4+
 
 Include pace-rails in Gemfile:
 
