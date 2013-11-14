@@ -43,6 +43,10 @@ app/assets/stylesheets/application.css
 
 	*= require pace/pace-theme-bounce
 
+	*= require pace/pace-theme-center-radar
+
+	*= require pace/pace-theme-loading-bar
+
 You may need to restart your rails server.
 
 ## Contributing
