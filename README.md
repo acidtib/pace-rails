@@ -25,7 +25,7 @@ Pace supports a few themes, selec one of the following and have fun and create y
 
 app/assets/stylesheets/application.css
 
-	*= require pace/pace-theme-minimal
+  *= require pace/pace-theme-minimal
 
   *= require pace/pace-theme-mac-osx
 
@@ -35,7 +35,7 @@ app/assets/stylesheets/application.css
 
   *= require pace/pace-theme-flash
 
-	*= require pace/pace-theme-fill-left
+  *= require pace/pace-theme-fill-left
 
   *= require pace/pace-theme-corner-indicator
 
@@ -51,7 +51,7 @@ app/assets/stylesheets/application.css
 
   *= require pace/pace-theme-big-counter
 
-	*= require pace/pace-theme-barber-shop
+  *= require pace/pace-theme-barber-shop
 
 You may need to restart your rails server.
 
