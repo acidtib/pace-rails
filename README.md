@@ -13,7 +13,7 @@ Include pace-rails in Gemfile:
 
 or you can install from latest build:
 
-    gem 'pace-rails', git: 'git@github.com:drkyro/pace-rails.git'
+    gem 'pace-rails', git: 'git@github.com:yovu/pace-rails.git'
 
 ## Usage
 
