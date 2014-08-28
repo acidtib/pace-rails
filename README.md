@@ -9,51 +9,48 @@ Automatic web page progress bar.
 
 Include pace-rails in Gemfile:
 
-    gem 'pace-rails'
+```ruby
+gem 'pace-rails'
+```
 
 or you can install from latest build:
 
-    gem 'pace-rails', git: 'git@github.com:yovu/pace-rails.git'
+```ruby
+gem 'pace-rails', git: 'git@github.com:yovu/pace-rails.git'
+```
 
 ## Usage
 
-app/assets/javascripts/application.js
+Add the following to your `app/assets/javascripts/application.js` file:
 
-	//= require pace/pace
+```js
+//= require pace/pace
+```
 
-Pace supports a few themes, selec one of the following and have fun and create your own.
+Pace supports a few [themes](http://github.hubspot.com/pace/docs/welcome/), select one of the following and have fun and create your own.
 
-app/assets/stylesheets/application.css
+In `app/assets/stylesheets/application.css`, add one of the following:
 
-  *= require pace/pace-theme-minimal
+```scss
+/*
+*= require pace/pace-theme-barber-shop
+*= require pace/pace-theme-big-counter
+*= require pace/pace-theme-bounce
+*= require pace/pace-theme-center-atom
+*= require pace/pace-theme-center-circle
+*= require pace/pace-theme-center-radar
+*= require pace/pace-theme-center-simple
+*= require pace/pace-theme-corner-indicator
+*= require pace/pace-theme-fill-left
+*= require pace/pace-theme-flash
+*= require pace/pace-theme-flat-top
+*= require pace/pace-theme-loading-bar
+*= require pace/pace-theme-mac-osx
+*= require pace/pace-theme-minimal
+*/
+```
 
-  *= require pace/pace-theme-mac-osx
-
-  *= require pace/pace-theme-loading-bar
-
-  *= require pace/pace-theme-flat-top
-
-  *= require pace/pace-theme-flash
-
-  *= require pace/pace-theme-fill-left
-
-  *= require pace/pace-theme-corner-indicator
-
-  *= require pace/pace-theme-center-simple
-
-  *= require pace/pace-theme-center-radar
-
-  *= require pace/pace-theme-center-circle
-
-  *= require pace/pace-theme-center-atom
-
-  *= require pace/pace-theme-bounce
-
-  *= require pace/pace-theme-big-counter
-
-  *= require pace/pace-theme-barber-shop
-
-You may need to restart your rails server.
+You may need to restart your Rails server.
 
 ## Contributing
 
