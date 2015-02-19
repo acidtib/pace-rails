@@ -1,4 +1,3 @@
-/* This is a compiled file, you should be editing the file in the templates directory */
 .pace {
   width: 140px;
   height: 300px;
@@ -30,7 +29,7 @@
   width: 140px;
   height: 140px;
   border-radius: 70px;
-  background: #29d;
+  background: `args.color || "#29d"`;
   position: absolute;
   top: 0;
   z-index: 1911;
@@ -53,11 +52,11 @@
   background: rgba(20, 20, 20, .1);
   box-shadow: 0 0 20px 35px rgba(20, 20, 20, .1);
   border-radius: 30px / 40px;
-  -webkit-transform: scaleY(.3);
-  -moz-transform: scaleY(.3);
-  -ms-transform: scaleY(.3);
-  -o-transform: scaleY(.3);
-  transform: scaleY(.3);
+  -webkit-transform: scaleY(.3) !important;
+  -moz-transform: scaleY(.3) !important;
+  -ms-transform: scaleY(.3) !important;
+  -o-transform: scaleY(.3) !important;
+  transform: scaleY(.3) !important;
   -webkit-animation: pace-compress .5s infinite alternate;
   -moz-animation: pace-compress .5s infinite alternate;
   -o-animation: pace-compress .5s infinite alternate;

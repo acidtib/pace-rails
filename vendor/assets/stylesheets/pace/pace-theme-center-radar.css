@@ -1,7 +1,10 @@
-/* This is a compiled file, you should be editing the file in the templates directory */
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 
   z-index: 2000;
   position: fixed;
@@ -30,13 +33,13 @@
   display: block;
   border-width: 30px;
   border-style: double;
-  border-color: #29d transparent transparent;
+  border-color: `args.color || "#29d"` transparent transparent;
   border-radius: 50%;
 
   -webkit-animation: spin 1s linear infinite;
-     -moz-animation: spin 1s linear infinite;
-       -o-animation: spin 1s linear infinite;
-          animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  -o-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
 }
 
 .pace .pace-activity:before {
@@ -49,10 +52,9 @@
   display: block;
   border-width: 10px;
   border-style: solid;
-  border-color: #29d transparent transparent;
+  border-color: `args.color || "#29d"` transparent transparent;
   border-radius: 50%;
 }
-
 
 @-webkit-keyframes spin {
   100% { -webkit-transform: rotate(359deg); }
