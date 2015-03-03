@@ -2,8 +2,8 @@
 
 Automatic web page progress bar.
 
--	[Demo](http://github.hubspot.com/pace/docs/welcome/)
--	[Documentation](http://github.hubspot.com/pace/)
+- [Demo](http://github.hubspot.com/pace/docs/welcome/)
+- [Documentation](http://github.hubspot.com/pace/)
 
 ## Rails 4+
 
@@ -31,22 +31,27 @@ Pace supports a few [themes](http://github.hubspot.com/pace/docs/welcome/), sele
 
 In `app/assets/stylesheets/application.css`, add one of the following:
 
+Chosse a color `black | blue | green | orange | pink | purple | red | silver | white | yellow`
+
+
+Example ```*= require pace/blue/pace-theme-barber-shop```
+
 ```scss
 /*
-*= require pace/pace-theme-barber-shop
-*= require pace/pace-theme-big-counter
-*= require pace/pace-theme-bounce
-*= require pace/pace-theme-center-atom
-*= require pace/pace-theme-center-circle
-*= require pace/pace-theme-center-radar
-*= require pace/pace-theme-center-simple
-*= require pace/pace-theme-corner-indicator
-*= require pace/pace-theme-fill-left
-*= require pace/pace-theme-flash
-*= require pace/pace-theme-flat-top
-*= require pace/pace-theme-loading-bar
-*= require pace/pace-theme-mac-osx
-*= require pace/pace-theme-minimal
+*= require pace/color/pace-theme-barber-shop
+*= require pace/color/pace-theme-big-counter
+*= require pace/color/pace-theme-bounce
+*= require pace/color/pace-theme-center-atom
+*= require pace/color/pace-theme-center-circle
+*= require pace/color/pace-theme-center-radar
+*= require pace/color/pace-theme-center-simple
+*= require pace/color/pace-theme-corner-indicator
+*= require pace/color/pace-theme-fill-left
+*= require pace/color/pace-theme-flash
+*= require pace/color/pace-theme-flat-top
+*= require pace/color/pace-theme-loading-bar
+*= require pace/color/pace-theme-mac-osx
+*= require pace/color/pace-theme-minimal
 */
 ```
 
